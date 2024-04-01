@@ -3,14 +3,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-main {
-
-}
-
-a {
-    color: darkblue;
-}
-
 h1 {
     text-align: center;
     font-weight: 800;
@@ -19,13 +11,13 @@ h1 {
     color: darkblue;
 }
 
+header {
+    margin-bottom: 30px;
+}
+
 .container {
     margin: 120px auto;
     max-width: 600px;
-}
-
-header {
-    margin-bottom: 30px;
 }
 
 .form-container {
@@ -40,11 +32,15 @@ form {
     display: flex;
 }
 
-.hint {
-    line-height: 1.5px;
-    font-size: 12px;
-    margin-top: 10px;
-    opacity: 0.6;
+.submit-button {
+    margin-left: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    pad: 14px 24px ;
+    width: 150px;
+    font-size: 16px;
 }
 
 .instructions {
@@ -57,17 +53,16 @@ form {
     color: black;
 }
 
-.submit-button {
-    margin-left: 10px;
-    background-color: darkblue;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    pad: 14px 24px ;
-    width: 150px;
-    font-size: 16px;
-}
 
+.hint {
+    line-height: 1.5px;
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+.hidden {
+    display: none;
+}
 .poem {
     font-size: 16px;
     background-color: white;
@@ -76,16 +71,6 @@ form {
     border-left: 3px solid darkblue;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
     border-radius: 10px;
-}
-
-.hidden {
-    display: none;
-}
-
-footer {
-    text-align: center;
-    font-size: 13px;
-    margin-top: 30px;
 }
 
 .poem strong {
@@ -105,3 +90,16 @@ footer {
       visibility: hidden;
     }
   }
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+a {
+    color: darkblue;
+}
+
+
+
