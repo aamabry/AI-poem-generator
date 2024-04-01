@@ -7,9 +7,11 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
 <h1>AI Poem Generator</h1>
 </header>
+
 <main>
 <form action="">
     <input 
@@ -18,11 +20,13 @@
     autofocus
     required
     autocomplete="off"
+    class="instructions"
     />
-    <input type="submit"/>
+    <input type="submit"
+    class="submit-button"/>
 
 </form>
-<div>
+<div class="poem">
 I hunger for your sleek laugh,
 <br />
 your hands the color of a savage harvest,
@@ -39,6 +43,7 @@ I want to eat your skin like a whole almond.
     <a href="https://github.com/aamabry/AI-poem-generator" target="blank"> open sourced on GitHUb</a> and is hosted on
     <a href="https://aamabry-ai-poem-generator.netlify.app/" target="blank">Netlify</a>
 </footer>
+</div>
 <script src="src/index.js"></script>
 </body>
 </html> 
