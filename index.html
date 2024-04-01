@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
 </header>
 
 <main>
-<form action="">
+<form id="poem-generator-form">
     <input 
     type="text" 
     placeholder="Enter the topic of the poem"
@@ -26,15 +27,7 @@
     class="submit-button"/>
 
 </form>
-<div class="poem">
-I hunger for your sleek laugh,
-<br />
-your hands the color of a savage harvest,
-<br />
-hunger for the pale stones of your fingernails,
-<br />
-I want to eat your skin like a whole almond.
-<br />
+<div class="poem" id="poem">
 </div>
 </main>
 <footer>
